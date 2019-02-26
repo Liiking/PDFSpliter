@@ -1,0 +1,16 @@
+<project name="PDFSplitTool">
+
+    <taskdef name="jarbundler"
+             classname="net.sourceforge.jarbundler.JarBundler" classpath="lib/jarbundler.jar"/>
+
+    <target name="bundle">
+
+        <jarbundler dir="release"
+                    icon="logo.icns"
+                    mainclass="com.qwy.tool.PDFSplit"
+                    name="PDFSplitTool"
+                    jar="PDFSplitTool.jar"/>
+
+    </target>
+
+</project>
